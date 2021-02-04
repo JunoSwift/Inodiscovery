@@ -1,0 +1,48 @@
+.Deals {
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+@media (min-width: 499px) {
+  .Deals {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+}
+@media (min-width: 789px) {
+  .Deals {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+}
+
+@media (min-width: 989px) {
+  .Deals {
+    margin: 0 auto;
+    display: grid;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+}

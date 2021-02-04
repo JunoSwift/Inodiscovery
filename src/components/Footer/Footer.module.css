@@ -1,0 +1,22 @@
+.FooterWrap {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 48px;
+  background-color: var(--clr-green1);
+  /*background-color: var(--clr-blue1);*/
+  color: #efefef;
+}
+.FooterWrap span {
+  color: #eca400;
+  font-size: 1.2rem;
+}
+.SocialMedias ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+}
+.SocialMedias ul li {
+  padding-right: 0.8rem;
+  text-align: left;
+}

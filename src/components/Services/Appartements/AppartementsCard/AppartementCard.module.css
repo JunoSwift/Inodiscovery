@@ -1,0 +1,73 @@
+.Card {
+  box-sizing: border-box;
+  box-shadow: 2px 1px 3px rgba(30, 36, 44, 0.233);
+  min-height: 300px;
+  width: 95%;
+  margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.Card .Cost {
+  padding: 5px;
+  font-size: 0.9rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: var(--clr-grey);
+  opacity: 0.8;
+  margin: 0 auto;
+  padding: 6px 11px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  line-height: 1.2;
+  text-align: right;
+}
+.Card .CardImageHolder {
+  box-sizing: border-box;
+  background-color: rgb(172, 173, 165);
+  height: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Card .CardImageHolder img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.CardContent {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: #fff;
+  height: 55%;
+  color: #27476e;
+  font-family: "roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  text-align: right;
+}
+.CardContent {
+  color: var(--clr-blue1);
+}
+.Location {
+  font-family: monospace;
+  color: var(--clr-green1);
+  font-size: 0.9rem;
+}
+.CardContent i {
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+.Mission a {
+  padding: 5px 10px;
+  color: #27476e;
+  border: solid 1px #27476e;
+  text-decoration: none;
+}
+@media (min-width: 499px) {
+  .Card {
+    width: 95%;
+  }
+}
